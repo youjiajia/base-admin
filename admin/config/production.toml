@@ -4,16 +4,15 @@ log_format = '%(asctime)s [%(levelname)s] %(filename)s@%(lineno)s - %(funcName)s
 log_size = 52428800
 products = ['geezios']
 
-
 [flask]
 host = '127.0.0.1'
 port = 8800
-debug = false
+debug = true
 
 [mongodb]
-url = 'mongodb://172.19.68.182:27017'
-database = 'whale'
-auth = true
-user = 'whale'
-pass = 'Whale123$%^'
+url = 'mongodb://127.0.0.1:27017'
+database = 'feishu'
+auth = false
+user = ''
+pass = ''
 replica_set = ''

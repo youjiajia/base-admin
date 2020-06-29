@@ -4,7 +4,6 @@ import pymongo
 import toml
 
 _CONFIG = {}
-_CONFIG.update(toml.load('config/' + 'novel.toml'))
 _CONFIG.update(toml.load('config/' + os.getenv('ENV', 'local') + '.toml'))
 
 logging.basicConfig(
