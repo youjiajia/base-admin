@@ -1,0 +1,7 @@
+Host *
+  User bidev
+  StrictHostKeyChecking no
+  ConnectTimeout 10
+
+Host 35.187.243.180 35.241.103.229 admin.igirlimg.com
+  ProxyCommand ssh bidev@admin.cn.igirlimg.com -W %h:%p

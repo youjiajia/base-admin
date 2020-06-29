@@ -1,0 +1,26 @@
+ [[source]]
+ url = "https://mirrors.aliyun.com/pypi/simple/"
+ verify_ssl = true
+ name = "pypi"
+
+[packages]
+supervisor = "*"
+Flask = "==1.0.2"
+flask-login = "==0.4.1"
+pymongo = "*"
+pytz = "==2018.7"
+toml = "*"
+python-dateutil = "*"
+requests = "*"
+more-itertools = "*"
+oss2 = "*"
+backports-datetime-fromisoformat = "*"
+apscheduler = "*"
+flask-apscheduler = "*"
+
+[dev-packages]
+pycodestyle = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.6"
